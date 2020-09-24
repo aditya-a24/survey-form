@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 | Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+    <div id="container"><!-- container -->
+        <div id="form-container"><!-- form-container-->
+            <fieldset id="field-border">
+                <legend><h1 id="title">COVID-19 Survey Form</h1></legend>
+                <p id="description">To check the risk of COVID-19(CORONA VIRUS)</p>
+                <form id="survey-form" action="#"><!-- form -->
+                    <div id="personal-details">
+                        <div>
+                            <label for="name" id="name-label">Name</label>
+                            <br>
+                            <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email" id="email-label">Email</label>
+                            <br>
+                            <input type="email" name="email" id="email" placeholder="Enter valid email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="age" id="number-label">Age</label>
+                            <br>
+                            <input type="number" name="age" id="number" min="1" max="100" placeholder="Enter your age" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="checkbox">
+                        <label for="checkup" id="check">Are you experiencing any of the following symptoms?</label>
+                        <br>
+                        <div id="tickbox">
+                            <input type="checkbox" name="check" value="cough" required> <span>Cough</span>
+                            <br>
+                            <input type="checkbox" name="check" value="fever" required> <span>Fever</span>
+                            <br>
+                            <input type="checkbox" name="check" value="Difficulty in breathing" required> <span>Difficulty in Breathing</span>
+                            <br>
+                            <input type="checkbox" name="check" value="loss of senses of smell and taste" required> <span>loss of senses of smell and taste</span>
+                            <br>
+                            <input type="checkbox" name="check" value="None of the Above" required> <span>None of the above</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="radio">
+                        <label for="travel">Have you traveled anywhere internationally in the last 28-45 days?</label>
+                        <br>
+                        <div id="rd">
+                            <input type="radio" name="tick" value="yes" required><span>Yes</span>
+                            <br>
+                            <input type="radio" name="tick" value="no" required><span>No</span>
+                       </div>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="zone">Which zone do you belong to?</label>
+                        <br>
+                        <select name="zone" id="dropdown">
+                            <option value="select-one" disabled selected>Select one</option>
+                            <option value="red-zone">Red zone</option>
+                            <option value="orange-cone">Orange zone</option>
+                            <option value="yellow-zone">Yellow zone</option>
+                            <option value="green-zone">Green zone</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="additional">Additional Message</label>
+                        <br>
+                        <textarea name="additional" id="message" cols="30" rows="5" placeholder="Enter additional message you wants to send in 50 words or more."></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </form><!-- /form -->
+            </fieldset>
+        </div><!-- /form-container -->
+
+    </div><!-- /container -->
+        <footer id="main-footer">
+            <p>Made by <a href="https://github.com/aditya-a24" target="_blank"><b>aditya_A</b></a></p>
+        </footer>
+</body>
+</html>

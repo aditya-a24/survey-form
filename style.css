@@ -1,0 +1,121 @@
+
+body{
+    background-color: #2e4057;
+    margin: 0 0 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 98%;
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: 5px;
+}
+
+#field-border{
+    border-radius: 10px;
+    margin: 1em;
+}
+
+#form-container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#title{
+    margin: 0;
+}
+
+#description{
+    margin: 0 0 1.5em 0;
+}
+
+#survey-form{
+    width: 80%;
+    margin: auto;
+}
+
+#survey-form label{
+    font-size:1.3em;
+}
+
+#personal-details > div > input{
+    font-size: 16px;
+    width: 80%;
+    margin: 5px 0;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+#checkbox label{
+    font-size: 1.3em;
+}
+
+#tickbox{
+    margin: 5px 0;
+}
+
+#checkbox > span{
+    font-size: 16px;
+}
+
+#radio label{
+    font-size: 1.3em;
+}
+#radio span{
+    font-size: 16px;
+}
+
+#rd{
+    margin: 5px 0;
+}
+
+#dropdown{
+    font-size: 16px;
+    width: 60%;
+    margin: 5px 0;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+#message{
+    width: 80%;
+    margin: 5px 0;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+#submit{
+    width: 80%;
+    font-size: 1em;
+    padding: 0.75rem;
+    border-style: none;
+    background-color: #37af65;
+    color: #f3f3f3;
+    border-radius: 0.25rem;
+}
+
+#submit:hover{
+    background-color: #2e4057;
+    color: #f3f3f3;
+    border-style: none;
+}
+
+#main-footer{
+    color: #f4faff;
+    text-align: center;
+}
+
+#main-footer a{
+    text-decoration: none;
+    color: #f4faff;
+}
+
+#main-footer a:hover{
+    border: 1px orangered solid;
+    color: orangered;
+    padding: 1px;
+}
